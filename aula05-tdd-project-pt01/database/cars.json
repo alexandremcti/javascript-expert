@@ -1,0 +1,16 @@
+[
+    {
+        "id": "6712de5c-7803-41e6-a714-4fb5d076fd84",
+        "name": "Model S",
+        "releaseYear": 2021,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "ef9ba7ca-a08c-4062-9617-82837293b68c",
+        "name": "Spyder",
+        "releaseYear": 2021,
+        "available": true,
+        "gasAvailable": true
+    }
+]
