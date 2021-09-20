@@ -1,0 +1,16 @@
+[
+    {
+        "id": "44eaeeb1-f04b-498f-9b0b-a8fcf18bb6fd",
+        "name": "Taurus",
+        "releaseYear": 2021,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "6becdd07-5c16-4cdc-9a2b-9d8508fefce9",
+        "name": "Durango",
+        "releaseYear": 2021,
+        "available": true,
+        "gasAvailable": true
+    }
+]

@@ -1,7 +1,7 @@
 const faker = require('faker')
-const Car = require('./../src/entities/Car')
-const CarCategory = require('./../src/entities/CarCategory')
-const Customer = require('./../src/entities/Customer')
+const Car = require('../src/entities/Car')
+const CarCategory = require('../src/entities/CarCategory')
+const Customer = require('../src/entities/Customer')
 
 const { join } = require('path')
 const { writeFile } = require('fs/promises')
@@ -33,6 +33,7 @@ for(let index = 0; index < ITENS_AMOUNT; index++){
 
     const customer = new Customer({
         id: faker.datatype.uuid(),
+        name: faker.name.findName(),
         age: faker.datatype.number({min: 18, max: 50})
     })
     customers.push(customer);
